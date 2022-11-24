@@ -8,7 +8,7 @@ html, body {
 }
 
 header {
-    height: 300px;
+    height: 350px;
     width: 100%;
     background-color: #1f2937;
     padding: 0 150px;
@@ -16,8 +16,10 @@ header {
 
 .h-logo-link {
     display: flex;
-    margin-top: 0;
+    margin: 0 0 50px;
     color: #F9FAF8;
+    flex-wrap: wrap;
+
 }
 
 ul {
@@ -41,6 +43,7 @@ a {
 .txt-div {
     display: flex;
     color: #F9FAF8;
+    flex-wrap: wrap;
 }
 
 .gre-container {
@@ -52,6 +55,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .link {
@@ -70,6 +74,7 @@ a {
     display: flex;
     width: 40%;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .mt1 {
